@@ -44,8 +44,6 @@
 	<link rel="shortcut icon" href="/favicon.ico">
 	<meta name="theme-color" content="#FF0000">
 
-	<link rel="alternate" hreflang="de" href="https://fintom8.com/de/" />
-	<link rel="alternate" hreflang="en" href="https://fintom8.com/en/" />
 	<link rel="alternate" hreflang="x-default" href="https://fintom8.com/" />
 
     <style>
@@ -216,6 +214,81 @@
             color: white;
         }
     </style>
+    <!-- Main Website structured data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "FINTOM8",
+      "url": "https://fintom8.com/",
+      "description": "Free E-Invoice & ZUGFeRD Tools"
+    }
+    </script>
+    
+    <!-- Services Section structured data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "E-invoice API Service",
+      "description": "Mass volume convertion of any DPF or image invoice into compliant EN16931 E-invoice.",
+      "url": "https://fintom8.com/#section-more"
+    }
+    </script>
+    <!-- Contact Section structured data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ContactPage",
+      "name": "Contact FINTOM8",
+      "description": "Curious about our AI solution? Get started now and schedule a free live presentation!",
+      "mainEntity": {
+        "@type": "Organization",
+        "name": "FINTOM8",
+        "email": "contact@fintom8.com",
+        "url": "https://fintom8.com/#section-contact"
+      }
+    }
+    </script>
+    
+    <!-- PDF to E-Invoice Tool structured data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "PDF to ZUGFeRD Converter",
+      "alternateName": "PDF zu ZUGFeRD Konverter",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web",
+      "description": "Convert any PDF invoice into compliant ZUGFeRD Format with our Free Online Converter",
+      "url": "https://pdf-zu-zugferd.de/",
+      "provider": {
+        "@type": "Organization",
+        "name": "FINTOM8",
+        "url": "https://fintom8.com/"
+      },
+      "potentialAction": {
+        "@type": "UseAction",
+        "target": "https://pdf-zu-zugferd.de/"
+      }
+    }
+    </script>
+    
+    <!-- Organization structured data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "FINTOM8",
+      "url": "https://fintom8.com/",
+      "logo": "https://fintom8.com/logo_black.png",
+      "email": "contact@fintom8.com",
+      "description": "FINTOM8 offers free tools for converting PDF invoices to ZUGFeRD/Factur-X compliant e-invoices. Use our API for automated solutions.",
+      "sameAs": [
+        "https://pdf-zu-zugferd.de/"
+      ]
+    }
+    </script>
 
 </head> 
 
@@ -1341,28 +1414,6 @@
 				el.style.display = 'none';
 			});
 		});
-	</script>
-
-	<script type="application/ld+json">
-	{
-	  "@context": "https://schema.org",
-	  "@type": "SoftwareApplication",
-	  "name": "FINTOM8",
-	  "applicationCategory": "BusinessApplication",
-	  "operatingSystem": "Web",
-	  "offers": {
-	    "@type": "Offer",
-	    "price": "0",
-	    "priceCurrency": "EUR"
-	  },
-	  "description": "Kostenlose Tools zur Umwandlung von PDF-Rechnungen in ZUGFeRD/Factur-X konforme E-Rechnungen.",
-	  "url": "https://fintom8.com/",
-	  "provider": {
-	    "@type": "Organization",
-	    "name": "FINTOM8",
-	    "url": "https://fintom8.com/"
-	  }
-	}
 	</script>
 
 </body>
