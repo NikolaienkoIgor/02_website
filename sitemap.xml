@@ -3,8 +3,6 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://fintom8.com/</loc>
-    <xhtml:link rel="alternate" hreflang="de" href="https://fintom8.com/de/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://fintom8.com/en/"/>
     <priority>1.0</priority>
   </url>
   <url>
